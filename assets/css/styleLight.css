@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'QuickSand';
+    src: url('../fonts/Quicksand-VariableFont_wght.ttf') format('truetype');
+}
+
+html {
+    background-image: url('../images/background.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    background-color: #1f1f2e;    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 10%;
+    margin-right: 10%;
+
+    color: white;
+
+    backdrop-filter: blur(3px);
+
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    
+    font-family: 'QuickSand', sans-serif;
+    font-size: x-large;
+    font-weight: 200;
+}
+
+button {
+    font-family: 'QuickSand', sans-serif;
+    font-size: x-large;
+    font-weight: 800;
+
+    padding: 0.5em;
+
+    color: rgb(152, 15, 164);
+    background-color: #00000000;
+    box-shadow: 0px 0px rgb(188, 18, 203);
+    border: solid 2px;
+    transition: ease-in-out 0.25s;
+}
+
+button:hover {
+    color: rgb(188, 18, 203);
+    box-shadow: 7px 7px rgb(188, 18, 203);
+    translate: -7px -7px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+    margin-bottom: 4em;
+}
+
+nav h3 {
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+#nav-title, #nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    display: flex;
+    padding-left: 2em;
+    transition: ease-in-out 0.35s;
+}
+
+.nav-item:hover {
+    text-shadow: 5px 5px 7px rgb(237, 41, 255);
+    cursor: pointer;
+}
+
+.nav-item img {
+    width: 2em;
+}
+
+/* Header */
+header {
+    display: flex;
+}
+
+header, h3, p {
+    margin: 0em;
+}
+
+header, p {
+    margin-bottom: 1em;
+}
+
+#header-hero-container {
+    width: 50%;
+}
+
+#header-image {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+/* LightMode */
+body .light {
+    color: black;
+}

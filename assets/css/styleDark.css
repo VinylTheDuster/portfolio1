@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'QuickSand';
+    src: url('../fonts/Quicksand-VariableFont_wght.ttf') format('truetype');
+}
+
+:root {
+    /* btn color */
+    --button-color: #bc12cb;
+    --button-color-hovered: #da81e2;
+
+    /* span */
+    --span-text-color: #d1aad5;
+
+    /* special text color */
+    --special-text-color: #be3dca;
+    --special-skill-color: #d46edd;
+
+    /* nav */
+    --nav-item-hover-shadow: #ed29ff;
+}
+
+html {
+    background-image: url('../images/background.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    background-color: #1f1f2e;
+}
+
+body {
+    display: flex;
+        flex-direction: column;
+
+    color: white;
+    backdrop-filter: blur(2px);
+
+    margin: 0em;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    font-family: 'QuickSand', sans-serif;
+    font-size: x-large;
+    font-weight: 200;
+}
+
+button {
+    font-family: 'QuickSand', sans-serif;
+    font-size: x-large;
+    font-weight: 800;
+
+    padding: 0.5em;
+
+    color: var(--button-color);
+    background-color: #00000000;
+    box-shadow: 0px 0px var(--button-color-hovered);
+    border: solid 2px;
+    transition: ease-in-out 0.25s;
+
+    margin-top: 1em;
+}
+
+button:hover {
+    color: var(--button-color-hovered);
+    box-shadow: 7px 7px var(--button-color-hovered);
+    translate: -7px -7px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+
+    font-size: 4em;
+    font-weight: 400;
+}
+
+span {
+    color: var(--span-text-color);
+
+    margin-bottom: 1em;
+
+    font-weight: 600;
+    text-shadow: 0px 0px 2em var(--span-text-color);
+}
+
+section {
+    margin-top: 15em;
+}
+
+/* */
+
+.reveal, .skill-reveal {
+    opacity: 0;
+    transform: translate(-5em);
+}
+
+.active {
+    transition: all 1s;
+    opacity: 1;
+}
+
+/* Nav */
+nav {
+    display: flex;
+        justify-content: space-between;
+    
+    margin-bottom: 4em;
+}
+
+nav h3 {
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+#nav-title, #nav-bar {
+    display: flex;
+        align-items: center;
+}
+
+.nav-item {
+    display: flex;
+    padding-left: 2em;
+    transition: ease-in-out 0.35s;
+}
+
+.nav-item:hover {
+    text-shadow: 5px 5px 7px var(--nav-item-hover-shadow);
+    cursor: pointer;
+}
+
+.nav-item img {
+    width: 2em;
+}
+
+/* Header */
+header {
+    display: flex;
+    
+    margin-bottom: 15em;
+}
+
+header h3 {
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+header p {
+    margin-bottom: 0em;
+}
+
+#header-hero-container {
+    width: 50%;
+}
+
+#header-image {
+    display: flex;
+        justify-content: center;
+    width: 50%;
+}
+
+/* About my */
+#about-grid {
+    display: grid;
+        grid-template-columns: repeat(3, auto);
+        gap: 10em;
+
+    margin-left: 1em;
+    margin-right: 1em;
+
+    text-align: center;
+
+    h3 {
+        font-size: xx-large;
+        font-weight: 400;
+
+        color: var(--special-text-color);
+    }
+}
+
+.about-item {
+    text-shadow: 0px 0px 1em var(--special-text-color);
+}
+
+/* Skills */
+.skill-item {
+    background-color: #223247;
+    color: var(--special-skill-color);
+
+    font-weight: 600;
+    text-shadow: 0px 0px 5px var(--special-skill-color);
+
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    width: fit-content;
+
+    user-select: none;
+
+    transition: ease-in-out 0.10s;
+}
+
+.skill-item:hover {
+    transform: scale(1.2);
+}
+
+.skill-container {
+    display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+}
+
+/* WantTo */
+
+#wanto-container {
+    display: grid;
+        grid-template-columns: repeat(3, auto);
+        gap: 10em;
+}
+
+.wanto-item {
+    display: flex;
+        flex-direction: column;
+
+    text-align: center;
+
+    h3 {
+        font-size: xx-large;
+        font-weight: 400;
+
+        color: var(--special-text-color);
+    }
+}
