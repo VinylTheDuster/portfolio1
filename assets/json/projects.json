@@ -1,0 +1,37 @@
+{
+    "projects" : [
+        {
+            "id": "portfolio1",
+            "img": "../assets/images/projects_thumbnail/portfolio1.jpg",
+            "titleEn": "Portfolio Website",
+            "titleFr": "Site Web Portfolio",
+            "mw": "HTML CSS JavaScript",
+            "descriptionEn": "This is the website you are currently browsing. Among of my many training projects, I decided to create this website as part of my efforts to strengthen my skills in pure JavaScript. Here you can find a brief outline of my background, skills, and projects.",
+            "descriptionFr": "Ce site web est celui que vous êtes en train de consulter. Dans le cadre de mes nombreux projets d'entrainement, j'ai décidé de créer ce site web afin de renforcer mes compétences en JavaScript pur. Vous trouverez ici un bref aperçu de mon parcours, de mes compétences ainsi que de mes projets.",
+            "link": "",
+            "code": "https://github.com/VinylTheDuster/portfolio1"
+        },
+        {
+            "id": "scriptbucket",
+            "img": "../assets/images/projects_thumbnail/scriptbucket.jpg",
+            "titleEn": "Script Bucket",
+            "titleFr": "Script Bucket",
+            "mw": "Next.JS TailwindCSS",
+            "descriptionEn": "A website project currently on hold while I strengthen my knowledge of JavaScript and React. ScriptBucket is a container site for modules and APIs that I create myself. Think of it as the showcase side of GitHub, without the repository management.",
+            "descriptionFr": "Un projet de site web actuellement en standbye le temps que je renforce mes connaissances en JavaScript et React. ScriptBucket est un site conteneur de modules et APIs que je crée moi-même. Voyez le comme le côté présentoir de GitHub, sans la gestion de repositoire.",
+            "link": "",
+            "code": "https://github.com/VinylTheDuster/script-bucket-source"
+        },
+        {
+            "id": "cvsite",
+            "img": "../assets/images/projects_thumbnail/cvsite.jpg",
+            "titleEn": "Mon Site CV",
+            "titleFr": "My CV Website",
+            "mw": "Astro Supabase EmailJs",
+            "descriptionEn": "One of my first projects made with the Astro Framework. This website is much more focused on my personal life, outside of pure web development. It has been abandoned for now, but will be updated in a certain time: the code is in terrible state and urgently needs a complete makeover.",
+            "descriptionFr": "L'un de mes premiers projets fait avec le Framework Astro. Ce site web est beaucoup plus orienté sur ma vie personnel, en dehors du développement web pur. Il n'est pour l'instant abandonné, mais sera bientôt remis à jour : le code est en mauvaise état et nécessite urgemment une refonte.",
+            "link": "https://vinyltheduster.github.io/cv-site-build/",
+            "code": "https://github.com/VinylTheDuster/cv-site"
+        }
+    ]
+}

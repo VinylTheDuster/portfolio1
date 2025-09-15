@@ -9,9 +9,8 @@ async function init() {
 async function loadJson() {
 
     const response = await fetch('../assets/json/skills.json');
-    const parsedJson = await response.json();
 
-    return parsedJson;
+    return await response.json();
 }
 
 // // // // // // // // // // // // // //
