@@ -10,4 +10,4 @@ The website is fairly simple: no framework used, just HTML, CSS, and vanilla JS.
 
 ## License
 
-All right reserved.
+All right reserved. (except the background and the icons)
