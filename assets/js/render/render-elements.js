@@ -1,7 +1,5 @@
 function initReveal() {
 
-    console.log('Deuxième');
-
     const revealElements = document.querySelectorAll('.reveal');
     const revealSkills = document.querySelectorAll('.skill-reveal');
 

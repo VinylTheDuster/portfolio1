@@ -9,15 +9,17 @@ const currentLanguage = () => {
 //functions
 function redirectToTranslationPage() {
 
-    switch(currentLanguage()) {
+    const userLang = new Intl.Locale(navigator.language);
 
-        case "english":
+    switch(userLang.language || currentLanguage()) {
+
+        case ("en" || "english"):
 
             window.location = './en/index.html';
 
             break;
 
-        case "french":
+        case ("fr" || "french"):
 
             window.location = './fr/index.html';
 

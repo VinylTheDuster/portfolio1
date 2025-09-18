@@ -1,5 +1,5 @@
 {
-    "front": ["HTML", "JavaScript", "TypeScript", "React", "Next.JS", "TailwindCSS", "BootStrap", "Astro", "Firebase"],
+    "front": ["TypeScript", "React", "Next.JS", "TailwindCSS", "BootStrap", "Astro", "Firebase"],
     "back": ["PostgreSQL", "SQLite", "Node.JS", "Express.js", "Firebase"],
     "design": ["Photoshop", "Gimp", "Figma"],
     "others": ["Git", "Jest", "REST APIs"]

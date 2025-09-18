@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
     <head>
         <meta charset="UTF-8">
@@ -10,119 +10,157 @@
 
     <body>
 
-        <script src="../assets/js/translation/translationInit.js" defer></script>
-    
-        <nav>
+        <div class="quick-links">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/william-salembien/">
+                <img src="../assets/images/InBug-White.png" alt="">
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/VinylTheDuster">
+                <img src="../assets/images/github-mark-white.svg" alt="">
+            </a>
+            <div></div>
+        </div>
 
-            <div id="nav-title">
-                <h3>William SALEMBIEN</h3>
-            </div>
-
-            <div>
-                <ul id="nav-bar">
-                    <li class="nav-item"><a href="">About</a></li>
-                    <li class="nav-item"><a href="">Skills</a></li>
-                    <li class="nav-item"><a href="">Projects</a></li>
-                    <li class="nav-item"><a href="">Contact</a></li>
-                    <li class="nav-item"><a href="">Resume</a></li>
-                    <li id="nav-lang" class="nav-item"><img src="../assets/images/english.svg" alt=""></li>
-                    <li class="nav-item"><img src="" alt=""></li>
-                </ul>
-            </div>
-            
-        </nav>
-
-        <header>
-
-            <div id="header-hero-container">
-
-                <span class="translatable">Bonjour ! Je suis</span>
-                <h3>William SALEMBIEN</h1>
-                <p class="translatable">Je suis un développeur web en devenir basé en France, autodidacte et passionné par la programmation. Je me prépare actuellement à obtenir une certification de développeur web et mobile. Je m'intéresse particulièrement à la création de sites web, à la conception UI/UX et je m'engage à créer des sites web conviviaux et visuellement attrayants. Je suis à la recherche de nouvelles opportunités pour améliorer mes compétences.</p>
-
-                <button id="btn-resume" class="translatable">Get my resume</button>
-
-            </div>
-
-            <div id="header-image">
-                <img src="./assets/images/image-header.jpg" width="300px" alt="">
-            </div>
-
-        </header>
-
-        <main>
-
-            <section id="about-container">
-
-                <h1 class="translatable">About My</h1>
-
-                <div id="about-flex">
-
-                    <div>
-
-                        <h2 class="translatable">Past</h2>
-
-                        <p class="translatable">Deeply rooted in computer science since the age of two, I first discovered my fascination with programming through video game modding. For a long time, it seemed to me to be merely a hobby, and I never dared to consider it as a potential career path. Recently, I have begun to refine my skills and have immersed myself in web development.</p>
-
+        <div class="main-container">
+            <nav>
+                <div id="nav-normal">
+                    <div id="nav-title">
+                        <h3>William SALEMBIEN</h3>
                     </div>
-
                     <div>
-
-                        <h2 class="translatable">Present</h2>
-
-                        <p class="translatable">Nowadays, I spend my free time learning new concepts and improving my skills as I work on projects. I'm always striving to reach new goals and reinforce what I've learned. I know I still have much to learn, but I'm convinced that my all-consuming passion for programming and web development will get me there.</p>
+                        <ul id="nav-bar">
+                            <li class="nav-item"><a href="#about-container">À propos</a></li>
+                            <li class="nav-item"><a href="#skills-container">Compétences</a></li>
+                            <li class="nav-item"><a href="#projets-container">Projets</a></li>
+                            <li class="nav-item"><a href="#contact-container">Contact</a></li>
+                            <li class="nav-item"><a href="#links-container">Liens</a></li>
+                            <li id="nav-lang" class="nav-item"><img src="../assets/images/english.svg" alt=""></li>
+                            <li class="nav-item"><img src="" alt=""></li>
+                        </ul>
                     </div>
-
-                    <div>
-
-                        <h2 class="translatable">Futur</h2>
-
-                        <p class="translatable">I am enthusiastic about my professional future. My ambition is to become a software engineer some day. I still have a long way to go, but I am deeply invested in my studies, confident in my current skills, and resourceful.</p>
-
-                    </div>
-
                 </div>
-
-            </section>
-
-            <section id="skills-container">
-
+                <div id="nav-hambuga">
+                    <h3>William SALEMBIEN</h3>
+                    <div id="nav-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
                 <div>
-
+                    <ul id="nav-bar-hambuga">
+                        <li class="nav-item"><a href="#about-container">À propos</a></li>
+                        <li class="nav-item"><a href="#skills-container">Compétences</a></li>
+                        <li class="nav-item"><a href="#projets-container">Projets</a></li>
+                        <li class="nav-item"><a href="#contact-container">Contact</a></li>
+                        <li class="nav-item"><a href="#links-container">Liens</a></li>
+                        <li id="nav-lang" class="nav-item"><img src="../assets/images/french.svg" alt=""></li>
+                        <li class="nav-item"><img src="" alt=""></li>
+                    </ul>
                 </div>
-
-            </section>
-
-            <section id="projets-container">
-
-            </section>
-
-            <section id="contact-container">
-
-                <div>
-
-                    <h1>Want To</h1>
-
-                    <div>
-                        <h2>offer job opportunity?</h2>
-                    </div>
-
-                    <div>
-                        <h2>Connect?</h2>
-                    </div>
-
-                    <div>
-                        <h2>Build something?</h2>
-                    </div>
-
+                <script src="../assets/js/dynamics/hambuga-icon.js" defer></script>
+            </nav>
+            <header class="reveal">
+                <div id="header-hero-container">
+                    <p>Bonjour ! Je suis</p>
+                    <h3>William SALEMBIEN</h3>
+                    <span>Développeur Web - En formation</span>
+                    <p>Je suis un développeur web en devenir basé en France, autodidacte et passionné par la programmation. Je me prépare actuellement à obtenir une certification de développeur web et web mobile. Je m'intéresse particulièrement à la création de sites web, à la conception UI/UX et je m'engage à créer des sites web ergonomiques et visuellement attrayants. Je suis à la recherche de nouvelles opportunités pour améliorer mes compétences.</p>
+                    <button id="btn-resume">Obtenir mon CV</button>
                 </div>
-
-            </section>
-
-            <footer>
-
+                <div id="header-image">
+                    <img src="../assets/images/image-header.jpg" width="300px" alt="">
+                </div>
+            </header>
+            <div id="mouse-down">
+                <img src="../assets/images/mouse.svg" alt="">
+                <img src="../assets/images/scolldown.svg" alt="">
+            </div>
+            <main>
+                <section id="about-container">
+                    <h1 class="reveal">À propos de mon</h1>
+                    <div id="about-grid">
+                        <div class="about-item">
+                            <h3 class="reveal">Passé</h3>
+                            <p class="reveal">Profondément ancré dans l'informatique depuis l'âge de deux ans, j'ai découvert ma fascination pour la programmation grâce au modding de jeux vidéo. Pendant longtemps, cela m'a semblé n'être qu'un simple passe-temps, et je n'ai jamais osé envisager cela comme une carrière potentielle. Récemment, j'ai commencé à perfectionner mes compétences et je me suis plongé dans le développement web.</p>
+                        </div>
+                        <div class="about-item">
+                            <h3 class="reveal">Présent</h3>
+                            <p class="reveal">Aujourd'hui, je consacre mon temps libre à apprendre de nouveaux concepts et à améliorer mes compétences tout en travaillant sur des projets. Je m'efforce toujours d'atteindre de nouveaux objectifs et de renforcer mes acquis. J'ai conscience qu'il me reste encore beaucoup à apprendre, mais je suis convaincu que ma passion dévorante pour la programmation et le développement web m'aidera à y parvenir.</p>
+                        </div>
+                        <div class="about-item">
+                            <h3 class="reveal">Future</h3>
+                            <p class="reveal">Je suis enthousiaste quant à mon avenir professionnel. Mon ambition est de devenir un jour ingénieur logiciel. J'ai encore un long chemin à parcourir, mais je m'investis pleinement dans mes études, j'ai confiance en mes compétences actuelles et je suis débrouillard.</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="skills-container">
+                    <div>
+                        <h1 class="reveal">Compétences</h1>
+                        <div>
+                            <h3 class="reveal">Front End</h3>
+                            <div id="front-container" class="skill-container">
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="reveal">Back End</h3>
+                            <div id="back-container" class="skill-container">
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="reveal">Style & Design</h3>
+                            <div id="design-container" class="skill-container">
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="reveal">Autres</h3>
+                            <div id="others-container" class="skill-container">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="projets-container">
+                    <h1 class="reveal">Projets</h1>
+                </section>
+                <script src="../assets/js/projects/projects-fetcher.js"></script>
+                <section id="contact-container">
+                    <h1 class="reveal">Vous voulez</h1>
+                    <div id="wanto-container">
+                        <div class="wanto-item">
+                            <h3 class="reveal">M'offrir une opportunité d'emploi ?</h3>
+                            <p class="reveal">
+                                Je suis ouvert à toute discussion concernant d'éventuelles opportunités d'emploi. Cependant, je suis réaliste quant à mes compétences et mes capacités, et afin de garantir la qualité de mon travail pour vous, je refuserai si vos demandes sont trop ambitieuses par rapport à mes qualifications actuelles.
+                            </p>
+                        </div>
+                        <div class="wanto-item">
+                            <h3 class="reveal">Se connecter ?</h3>
+                            <p class="reveal">
+                                Le réseautage est essentiel dans le secteur des technologies, c'est pourquoi je suis toujours ravi de rencontrer d'autres développeurs, concepteurs ou entrepreneurs. J'aime discuter avec les gens, partager et apprendre de leurs expériences. Parlez-moi de vous !
+                            </p>
+                        </div>
+                        <div class="wanto-item">
+                            <h3 class="reveal">Construire quelque chose ?</h3>
+                            <p class="reveal">
+                                Mon engagement envers le développement transcende la perspective d'un « emploi sûr ». C'est un engagement de toute une vie, et je suis toujours impatient de relever de nouveaux défis. Créons ensemble quelque chose d'extraordinaire !
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section id="links-container">
+                    <h1 class="reveal">Liens Utiles</h1>
+                    <div class="link-container">
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/VinylTheDuster"><h2>GitHub</h2></a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/william-salembien/"><h2>LinkedIn</h2></a>
+                        <a href="mailto:william.salembien@outlook.com"><h2>Email</h2></a>
+                        <a target="_blank" rel="noopener noreferrer" href=""><h2>CV</h2></a>
+                    </div>
+                </section>
+            </main>
+            <footer id="footer">
             </footer>
-
-        </main>
+        </div>
+        
+        <script src="../assets/js/footer/footer.js"></script>
+        <script src="../assets/js/render/render-elements.js"></script>
+        <script src="../assets/js/render/render-skills.js"></script>
+        <script src="../assets/js/translation/translation-init.js" defer></script>
     </body>
 </html>

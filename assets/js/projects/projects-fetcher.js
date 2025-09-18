@@ -68,7 +68,7 @@ function initProjects(json) {
                     return "Conçu avec :";
 
                 default:
-                    return "Made with";
+                    return "Made with :";
             }
         };
         mwTitleSpan.classList.add('projet-mw-title');
@@ -105,6 +105,7 @@ function initProjects(json) {
         }
 
         if(project.code !== "") {
+            
             createButton("code");
         }
 
@@ -127,6 +128,8 @@ function initProjects(json) {
             const a = document.createElement('a');
 
             a.setAttribute('href', project[prop]);
+            a.setAttribute('target', '_blank');
+            a.setAttribute('rel', 'noopener noreferrer');
 
             //image
             const btnImg = document.createElement('img');
